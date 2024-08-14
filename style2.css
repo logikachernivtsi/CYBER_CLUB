@@ -1,0 +1,149 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(180deg, #000000 20.05%, #6A0000 59.23%, #010101 100%);
+    color:#F6CE23;
+    width: 100%;
+    font-size:20px;
+}
+
+.logo_sus{
+    width: 271px;
+    height: 165px;
+    left: 24px;
+    top: 27px;
+    font-family: 'Tourney';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    color: #F6CE23;
+    -webkit-text-stroke: 1px solid #9D5E00;
+}
+
+nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #6A0000;
+    height: 120px;
+}
+
+nav a{
+    font-size: 24px;
+    color: #F6CE23;
+    text-shadow: 0px 4px 4px #E8EC51;
+}
+
+a{
+    text-decoration: none;
+    color:#F6CE23;
+}
+
+.kofe{
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    right:0;
+    top: 175px;
+    background-color:#6A0000;
+    border:5px solid #E8EC51;
+    border-radius:50px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    font-family: 'Tourney';
+    background: linear-gradient(90deg, #850202 15%, #D5BE38 100%);
+    -text-fill-color: transparent;
+    font-size:80px;
+    letter-spacing: 1.18em;
+    background: linear-gradient(90deg, #850202 15%, #D5BE38 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    height: 130px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td{
+    padding: 10px;
+}
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+}
+section img{
+    position: relative;
+    bottom:40px;
+}
+
+.nazva{
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.13em;
+    text-align: center;
+}
+
+combo{
+    position: absolute;
+    width: 781.9px;
+    height: 649px;
+
+}
+.gariache{
+    position: relative;
+    top:-750px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:0;
+}
+
+.gariache img{
+    width: 800px;
+}
+
+main{
+    height: 1900px;
+}
+
+footer{
+    display: flex;
+    background-color: #010101;
+    height: 0px;
+}
+
+.knopki{
+    margin-left:0;
+    width: 250px;
+    height: 350px;
+    text-align: left;
+    padding: 10px;
+    line-height: 60px;
+}
+
+.contact{
+        line-height: 10px;
+}
+
+.social{
+        line-height: 10px;
+}
+
+.soc{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    text-align: center;
+    width: 600px;
+    top:100px;
+    right:-200px;
+    position:relative;
+}
