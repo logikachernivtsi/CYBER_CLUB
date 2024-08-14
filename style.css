@@ -1,0 +1,288 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(180deg, #000000 20.05%, #6A0000 59.23%, #010101 100%);
+    color:#F6CE23;
+    width: 100%;
+    font-size:20px;
+}
+
+.logo_sus{
+    width: 271px;
+    height: 165px;
+    left: 24px;
+    top: 27px;
+    font-family: 'Tourney';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    color: #F6CE23;
+    -webkit-text-stroke: 1px solid #9D5E00;
+}
+
+nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #6A0000;
+    height: 120px;
+}
+
+nav a{
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: #F6CE23;
+    text-shadow: 0px 4px 4px #E8EC51;
+}
+
+a{
+    text-decoration: none;
+    color:#F6CE23;
+}
+
+.pochatok{
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info{
+    width: 500px;
+}
+
+.info h1{
+    font-family: 'Tourney';
+    background: linear-gradient(90deg, #850202 15%, #D5BE38 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -text-fill-color: transparent;
+    font-size:80px;
+    margin: 0;
+}
+
+.info_2{
+    width: 600px;
+    left:100px;
+}
+
+p{
+    
+    font-size: 24px;
+    text-align: justify;
+    color: #F6CE23;
+}
+
+.kofe{
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    right:0;
+    top: 175px;
+    background-color:#6A0000;
+    border:5px solid #E8EC51;
+    border-radius:50px;
+}
+
+.mertve{
+    position: absolute;
+    width: 165.02px;
+    height: 162.92px;
+    left: 700px;
+    top: 350px;
+    z-index:0;
+}
+
+.sus{
+    position: absolute;
+    width: 361px;
+    height: 367.4px;
+    left: 750px;
+    top: 450px;
+    z-index:4;
+}
+
+.knife{
+    position: absolute;
+    left:780px;
+    top: 300px;
+    z-index:2;
+}
+
+.red{
+    position: absolute;
+    width: 510.57px;
+    height: 392.03px;
+    left: 850px;
+    top: 200px;
+    z-index:3;
+}
+
+.button{
+    margin-left:-60px;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.zabroniuvati{
+    background: #920000;
+    border: 3px solid #E3E04A;
+    border-radius: 27.5px;
+    padding: 10px 30px;
+}
+
+.menu{
+    background:#E3E04A;
+    border: 3px solid #920000;
+    border-radius: 27.5px;
+    color: #920000;
+    padding: 10px 50px;
+}
+
+h1{
+    font-size: 72px;
+    text-align: center;
+    color: #F6CE23;
+}
+
+h2{
+    font-size: 30px;
+    text-align: justify;
+    color: #F6CE23;
+}
+
+.interier{
+    display: flex;
+    justify-content:center;
+}
+
+.cina{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.product{
+    width: 300px;
+    height: 420px;
+}
+
+.product h3{
+    font-size: 48px;
+    text-align: center;
+    color: #F6CE23;
+    padding: 0;
+    margin:0;
+}
+
+.product p{
+    font-size: 30px;
+    text-align: center;
+    padding: 0;
+    margin:0;
+}
+
+.set_igr{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px;
+}
+
+.set_igr .back{
+    margin:60px;
+    align-items: center;
+    color:black;
+    background-color: #F6CE23;
+    padding: 10px 30px;
+    border-radius: 50px;
+    width: 350px;
+    height: 60px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.set img{
+    position: absolute;
+}
+
+.monitor{
+    width: 390px;
+    height: 344px;
+}
+
+.keyboard{
+    position: absolute;
+    left:10px;
+    top:2870px;
+}
+
+.mouse{
+    position: absolute;
+    right: 10px;
+    top: 2800px;
+
+}
+
+.block{
+    position: absolute;
+    left: 10px;
+    top: 3100px;
+}
+
+.krislo{
+    position: absolute;
+    right: 10px;
+    top: 3000px;
+}
+
+.library{
+    width:100%;
+    height: auto;
+    filter: grayscale(100%);
+    transition: 1s ease-out;
+}
+.library:hover{
+    filter: grayscale(0%);
+    transition: 2s ease-in;
+}
+
+footer{
+    display: flex;
+    background-color: #010101;
+    height: 300px;
+}
+
+.knopki{
+    margin-left:0;
+    width: 250px;
+    height: 350px;
+    text-align: left;
+    padding: 10px;
+    line-height: 60px;
+}
+
+.contact{
+        line-height: 10px;
+}
+
+.social{
+        line-height: 10px;
+}
+
+.soc{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    text-align: center;
+    width: 600px;
+    top:100px;
+    right:-200px;
+    position:relative;
+}
