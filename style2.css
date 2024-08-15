@@ -6,6 +6,29 @@ body {
     font-size:20px;
 }
 
+nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #6A0000;
+    height: 120px;
+}
+
+nav a{
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: #F6CE23;
+    text-shadow: 0px 4px 4px #E8EC51;
+    transition:0.2s ease-out;
+}
+
+nav a:hover:nth-child(2), nav a:hover:nth-child(3), nav a:hover:nth-child(4), nav a:hover:nth-child(5), nav a:hover:nth-child(6), nav a:hover:nth-child(7){
+    transition:0.2s ease-in;
+    position:relative;
+    bottom:10px;
+    border-bottom:3px solid #ad6319;
+}
+
 .logo_sus{
     width: 271px;
     height: 165px;
@@ -17,20 +40,6 @@ body {
     font-size: 150px;
     color: #F6CE23;
     -webkit-text-stroke: 1px solid #9D5E00;
-}
-
-nav{
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    background-color: #6A0000;
-    height: 120px;
-}
-
-nav a{
-    font-size: 24px;
-    color: #F6CE23;
-    text-shadow: 0px 4px 4px #E8EC51;
 }
 
 a{
@@ -124,6 +133,10 @@ footer{
     text-align: left;
     padding: 10px;
     line-height: 60px;
+}
+
+.knopki a:hover{
+    border-bottom:1px solid #ad9419;
 }
 
 .contact{
