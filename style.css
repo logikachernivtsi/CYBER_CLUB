@@ -259,27 +259,27 @@ h2{
 
 .keyboard{
     position: absolute;
-    left:10px;
-    top:2670px;
+    left:-20px;
+    top:2770px;
 }
 
 .mouse{
     position: absolute;
-    right: 10px;
-    top: 2600px;
+    right: -20px;
+    top: 2700px;
 
 }
 
 .block{
     position: absolute;
-    left: 10px;
-    top: 2900px;
+    left:-20px;
+    top: 3000px;
 }
 
 .krislo{
     position: absolute;
-    right: 10px;
-    top: 2800px;
+    right: -20px;
+    top: 2900px;
 }
 
 .library{
