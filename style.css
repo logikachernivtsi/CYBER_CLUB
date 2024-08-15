@@ -6,19 +6,6 @@ body {
     font-size:20px;
 }
 
-.logo_sus{
-    width: 271px;
-    height: 165px;
-    left: 24px;
-    top: 27px;
-    font-family: 'Tourney';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 150px;
-    color: #F6CE23;
-    -webkit-text-stroke: 1px solid #9D5E00;
-}
-
 nav{
     align-items: center;
     display: flex;
@@ -32,7 +19,30 @@ nav a{
     font-size: 24px;
     color: #F6CE23;
     text-shadow: 0px 4px 4px #E8EC51;
+    transition:0.2s ease-out;
 }
+
+nav a:hover:nth-child(2), nav a:hover:nth-child(3), nav a:hover:nth-child(4), nav a:hover:nth-child(5), nav a:hover:nth-child(6), nav a:hover:nth-child(7){
+    transition:0.2s ease-in;
+    position:relative;
+    bottom:10px;
+    border-bottom:3px solid #ad6319;
+}
+
+.logo_sus{
+    width: 271px;
+    height: 165px;
+    left: 24px;
+    top: 27px;
+    font-family: 'Tourney';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    color: #F6CE23;
+    -webkit-text-stroke: 1px solid #9D5E00;
+}
+
+
 
 a{
     text-decoration: none;
@@ -129,6 +139,15 @@ p{
     border: 3px solid #E3E04A;
     border-radius: 27.5px;
     padding: 10px 30px;
+    transition:0.3s linear;
+}
+
+.zabroniuvati:hover{
+    transition:0.3s linear;
+    background: #E3E04A;
+    border: 3px solid #920000;
+    color:#920000;
+    transform: scale(1.2);
 }
 
 .menu{
@@ -137,6 +156,15 @@ p{
     border-radius: 27.5px;
     color: #920000;
     padding: 10px 50px;
+    transition:0.3s linear;
+}
+
+.menu:hover{
+     transition:0.3s linear;
+    background: #920000;
+    border: 3px solid #E3E04A;
+    color:#E3E04A;
+    transform: scale(1.2);
 }
 
 h1{
@@ -156,14 +184,25 @@ h2{
     justify-content:center;
 }
 
+.interier img{
+    border:none;
+    transition:0.3s linear;
+}
+
+.interier img:hover{
+    transition:0.3s linear;
+    border: 5px solid #ad9419;
+}
+
 .cina{
     display: flex;
     justify-content:space-evenly;
 }
 
 .product{
+    padding: 10px;
     width: 300px;
-    height: 420px;
+    height: 450px;
 }
 
 .product h3{
@@ -179,6 +218,10 @@ h2{
     text-align: center;
     padding: 0;
     margin:0;
+}
+
+.product:hover{
+    border:5px solid #ad6319;
 }
 
 .set_igr{
@@ -217,26 +260,26 @@ h2{
 .keyboard{
     position: absolute;
     left:10px;
-    top:2870px;
+    top:2670px;
 }
 
 .mouse{
     position: absolute;
     right: 10px;
-    top: 2800px;
+    top: 2600px;
 
 }
 
 .block{
     position: absolute;
     left: 10px;
-    top: 3100px;
+    top: 2900px;
 }
 
 .krislo{
     position: absolute;
     right: 10px;
-    top: 3000px;
+    top: 2800px;
 }
 
 .library{
@@ -263,6 +306,10 @@ footer{
     text-align: left;
     padding: 10px;
     line-height: 60px;
+}
+
+.knopki a:hover{
+    border-bottom:1px solid #ad9419;
 }
 
 .contact{
